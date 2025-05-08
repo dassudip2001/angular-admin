@@ -31,7 +31,7 @@ export const routes: Routes = [
   },
   {
     path: "authors",
-    loadComponent: () => import("./pages/authors/authors.component").then((m) => m.AuthorsComponent),
+    loadComponent: () => import("./features/authors/authors.component").then((m) => m.AuthorsComponent),
   },
   {
     path: "links",
